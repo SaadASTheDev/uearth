@@ -1,0 +1,179 @@
+body{
+    background-color: #000;
+
+}
+#Title{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    padding:17.5px 15px;
+    font-family: 'Trebuchet MS'
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+a {
+    left: 230px;
+    bottom: 00px;
+    top: -70px;
+    position: relative;
+    padding: 20px 0px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 200px;
+
+
+}
+a span {
+    position: relative;
+    color : rgb(255, 255, 255);
+    font-size: 10px;
+    left: 25px;
+    font-weight: bold;
+    font-family: Arial;
+    letter-spacing: 8px;
+    z-index: 1;
+
+
+}
+a .liqiud {
+    position: absolute;
+    top: -80px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #07a0ff;
+    box-shadow: inset 0 0 50px rgba(0,0,0,.5);
+    transition: 0.5s; 
+}
+a .liqiud::after,
+a .liqiud::before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -75%);
+    background: #000;
+
+}
+a .liqiud::before {
+    border-radius: 45%;
+    background: rgb(0, 0, 0);
+    animation: animate 5s linear infinite;  
+}
+a .liqiud::after {
+    border-radius: 40%;
+    background:rgba(0, 0, 0, 0.5);
+    animation: animate 10s linear infinite;
+;
+}
+a:hover .liqiud {
+    top: -120px;
+
+}
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+}
+#Title1{
+    top:-100px;
+    left: 0px;
+    width: 300px;
+    z-index: -1;
+
+
+}
+#Title1 .Transition{
+    background: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 1000px;
+    width: 1000000px;
+    height: 100px;
+    left: -10px;
+    top: 0px;
+
+
+
+
+}
+b {
+    left:0px;
+    bottom: 00px;
+    top: -130px;
+    position: relative;
+    padding: 20px 0px;
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    overflow: hidden;
+    border-radius: 200px;
+
+
+}
+b span {
+    position: relative;
+    color : rgb(255, 255, 255);
+    font-size: 10px;
+    left: 25px;
+    font-weight: bold;
+    font-family: Arial;
+    letter-spacing: 8px;
+    z-index: 2;
+
+
+}
+b .liqiud {
+    position: absolute;
+    top: -70px;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background: #000000;
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.5);
+    transition: 0.5s; 
+}
+b .liqiud::after,
+b .liqiud::before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    top: 0px;
+    left: 50%;
+    transform: translate(50%, 75%);
+    background: rgb(0, 0, 0);
+
+}
+b .liqiud::before {
+    border-radius: 45%;
+    background: rgb(49, 231, 13);
+    animation: animate 5s linear infinite;  
+    z-index: 1;
+}
+b .liqiud::after {
+    border-radius: 40%;
+    background:rgba(36, 194, 28, 0.701);
+    animation: animate 10s linear infinite;
+    z-index: ;
+}
+b:hover .liqiud {
+    top: -120px;
+
+}
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
