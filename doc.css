@@ -9,28 +9,49 @@ body {
     font-size: 60px;
     letter-spacing: 15px;
     text-transform: uppercase;
-
     padding-top: 10.5px;
-    padding-right: 15px;
+    padding-right: 10px;
     padding-bottom: 10px;
-    padding-left: 30px;
+    padding-left: 10px;
     font-family: 'Trebuchet MS';
     text-shadow: 0 0 10px rgb(255, 255, 255);
 }
 .Home{
     color: white;
     font-weight: underline;
-    top: 10px;
-    right: 100px;
-    font-size: 15px;
-    padding: 10.5px;
-    padding-right: 15px;
+    padding-left: 500px;
+    padding-top: 10.5px;
+    padding-right: 10px;
     padding-bottom: 10px;
-    padding-left: 10px;
+    position: absolute ;
+    top: 50.5px;
     font-family: 'Trebuchet MS';
     text-shadow: 0 0 10px rgb(255, 255, 255);
 }
-
+.About{
+    color: white;
+    font-weight: underline;
+    padding-left: 700px;
+    padding-top: 10.5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position: absolute ;
+    top: 50.5px;
+    font-family: 'Trebuchet MS';
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
+.Contact{
+    color: white;
+    font-weight: underline;
+    padding-left: 900px;
+    padding-top: 10.5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    position: absolute ;
+    top: 50.5px;
+    font-family: 'Trebuchet MS';
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}
 .Box {
     background-color: rgb(255, 255, 255);
     display: block;
