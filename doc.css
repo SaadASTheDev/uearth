@@ -28,10 +28,40 @@ body {
     font-family: 'Trebuchet MS';
     text-shadow: 0 0 10px rgb(255, 255, 255);
 }
+.Subtitle{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    position: absolute ;
+    top: 300.5px;
+    right: -50px;
+    left: 50px;
+    font-family: 'Trebuchet MS';
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+    padding-right: 100px;
+}
+.Subtitle1 {
+    color: greenyellow;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 47px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    position: absolute ;
+    top: 400.5px;
+    right: 0px;
+    left: 40px;
+    padding-right: 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Trebuchet MS';
+    font-weight: bolder;
+}
 .About{
     color: white;
     font-weight: underline;
-    padding-left: 700px;
+    padding-left: 900px;
     padding-top: 10.5px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -43,7 +73,7 @@ body {
 .Contact{
     color: white;
     font-weight: underline;
-    padding-left: 900px;
+    padding-left: 700px;
     padding-top: 10.5px;
     padding-right: 10px;
     padding-bottom: 10px;
@@ -73,9 +103,9 @@ body {
 }
 
 .BlueWater {
-    left: 450px;
+    left: 500px;
     bottom: 00px;
-    top: 30px;
+    top: 400px;
     position: relative;
     padding: 20px 0px;
     display: block;
@@ -180,7 +210,7 @@ a:hover .liqiud {
 .GreenWater {
     left: 170px;
     bottom: 00px;
-    top: -30px;
+    top: 340px;
     position: relative;
     padding: 20px 0px;
     display: block;
