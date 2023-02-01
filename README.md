@@ -1,2 +1,2 @@
 # U_Earth
-ML Program Using PyTorch Tracking Potential Crop Loss from floods.
+ML Program that uses PyTorch tov track potential crop loss from floods in Pakistan
