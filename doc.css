@@ -48,6 +48,10 @@ div {
     padding-right: 50px;
 }
 .Subtitle1 {
+    padding-left: 10px;
+    padding-top: 20.5px;
+    padding-right: 10px;
+    padding-bottom: 10px;
     color: greenyellow;
     font-weight: bold;
     text-decoration: underline;
@@ -59,7 +63,6 @@ div {
     right: 0px;
     left: 40px;
     padding-right: 10px;
-    padding: 10px 10px 10px 10px;
     font-family: 'Trebuchet MS';
     font-weight: bolder;
 }
