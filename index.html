@@ -23,22 +23,47 @@
             </ul>
       -->
       <a class="BlueWater" href="#GetStarted">
-            <span>Get Started</span>4
+            <span>Get Started</span>
             <div class="liqiud"></div>
       </a>
       <a class="GreenWater" href="h">
             <span>Learn More</span>
             <div class="wobble"></div>
       </a>
+      <nav class="navbar">
+            <button class="toggle-sidebar" onclick="toggleSidebar()">&#9776;</button>
+            <div class="sidebar collapsed">
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 4</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+      <script>
+            function toggleSidebar() {
+            const sidebar = document.querySelector(".sidebar");
+            const sidebarLinks = sidebar.querySelectorAll("a");
+            sidebar.classList.toggle("collapsed");
+            if (sidebar.classList.contains("collapsed")) {
+            sidebarLinks.forEach(link => link.classList.add("hidden"));
+            } else {
+            sidebarLinks.forEach(link => link.classList.remove("hidden"));
+            }
+            }
+      </script>
       <body style="background-color: black;">
-
-            <div class="bg-animation">
+      <div class="bg-animation">
                 <div id="stars"></div>
                 <div id="stars2"></div>
                 <div id="stars3"></div>
                 <div id="stars4"></div>
-            </div>
-            <div class="Box"></div>
+      </div>
+      <div class="Box"></div>
+
+            
         
       </body>
 
