@@ -46,6 +46,9 @@ div {
     font-family: 'Trebuchet MS';
     text-shadow: 0 0 10px rgb(255, 255, 255);
     padding-right: 50px;
+    padding-bottom: 10px;
+    padding-top: 10.5px;
+
 }
 .Subtitle1 {
     padding-left: 10px;
