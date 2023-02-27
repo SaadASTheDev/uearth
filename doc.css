@@ -291,7 +291,7 @@ a:hover .liqiud {
     top: 194px;
     left: 10%;
     position: relative;
-    padding: 20px 0px;
+    padding: 20px 0px 10px 10px;
     display: block;
     text-decoration: none;
     text-transform: uppercase;
